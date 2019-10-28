@@ -7,7 +7,7 @@ cask 'totalspaces' do
   name 'TotalSpaces'
   homepage 'https://totalspaces.binaryage.com/'
 
-  installer manual: "TotalSpaces#{version.major}.app"
+  app "TotalSpaces#{version.major}.app"
 
   uninstall pkgutil: "com.binaryage.TotalSpaces#{version.major}",
             script:  {
